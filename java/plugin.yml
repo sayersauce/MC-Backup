@@ -1,0 +1,8 @@
+name: SauceBackup
+main: lat.max.plugin.Main
+version: 1.0
+author: sayersauce
+commands:
+   backup:
+      description: Backs up server.
+      usage: /backup optional_email_address
