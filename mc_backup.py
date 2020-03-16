@@ -35,7 +35,7 @@ def create_backup_zip(server_path, backup_folder_path, ignored_dirs, ignored_fil
     file_paths = []
 
     # Get all file paths from server.
-    for root, dirs, files in os.walk(FILE_PATH + server_path):
+    for root, dirs, files in os.walk(server_path):
         skip = False
 
         for d in ignored_dirs:
